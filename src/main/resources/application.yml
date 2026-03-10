@@ -5,9 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Marskof/ConfigService.git
+          uri: https://github.com/Marskof/configurations-microservices-miagebank.git
           clone-on-start: true
-          default-label: master
+          default-label: main
 eureka:
   client:
     service-url:
