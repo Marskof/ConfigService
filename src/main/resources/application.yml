@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ConfigService
+  cloud:
+    config:
+      server:
+        git:
+          uri: 
